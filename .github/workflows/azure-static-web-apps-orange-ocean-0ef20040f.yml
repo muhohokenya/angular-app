@@ -33,7 +33,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           app_location: "/"
-          output_location: "/github/workspace/dist/my-app"
+          output_location: "/bin/staticsites/b0a80cc1-2a23-48ac-ac8d-8d007cbefb36-swa-oryx/app/github/workspace/dist/my-app"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
